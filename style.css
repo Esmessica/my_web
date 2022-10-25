@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Black.ttf);
+    font-weight: bold; 
+}
+
+html{
+    color: rgb(70, 70, 70);
+    font-family: Poppins;
+    background:  rgb(230, 230, 230);
+}
+
+.autoportrait{
+    width: 50%;
+}
+
+#logo{
+    margin-right: 40px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+#logo h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background: rgba(255,187,187);
+    background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    padding: 0 25px;
+    margin: 0 5px;
+    line-height: 3.5em;
+    
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    flex-direction: column;
+}
+
+nav ul {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+}
+
+.centrovac {
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+#panel{
+    padding: 5% 8%;
+    margin: 2% 0 10% 0;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(80, 80, 80) ;
+    color:white;
+}
+
+.dovednosti{
+    margin: 4em 0 2em 0;
+}
+
+body {
+    background: #ffffff;
+    color: #29262c;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    box-sizing: border-box;
+    font: 14px "Poppins";
+    min-width: 960px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+footer{
+    position: static;
+    display: block;
+    background: rgb(255,187,187);
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background: #b7a5c9;
+    padding: 20px 0 0 0;
+    clip-path: polygon();
+    background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
+}
+#footer-text{
+    padding: 2% 0 5% 0;
+    height: 0.5em;
+
+}
+.Zpet{
+    text-align: center;
+    margin-bottom: 5em;
+    border-radius: 100px 100px 100px 100px;
+    background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
+    margin: 2em 40% 5em 40%;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+
+.Zpet:hover{
+    background: linear-gradient(90deg, #fca5f1 10%, #9eecec 100%);
+
+    box-shadow: 0px 5px 10px #dddbdf;
+}
+
+
+.autoportrait{
+    box-shadow: 1px 2px 10px #c1bbc7;
+    width: 25%;
+}
+a{
+    text-decoration: none;
+    color: #29262c;
+}
