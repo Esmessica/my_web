@@ -76,7 +76,6 @@ nav ul {
 }
 
 .centrovac {
-    margin-top: 5%;
     text-align: center;
 }
 
@@ -98,7 +97,7 @@ body {
     background: #ffffff;
     color: #29262c;
     margin: 0;
-    padding: 100px 0px 0px 0px;
+    padding: 10em 0px 0px 0px;
     box-sizing: border-box;
     font: 14px "Poppins";
     max-width: 100%;
@@ -126,15 +125,17 @@ footer{
 }
 .Zpet{
     text-align: center;
-    margin-bottom: 5em;
+    margin: 2em 0 5em 0;
+}
+.Zpet a{    
+    padding: 1em 3em;
+    
+    text-transform: uppercase;
+    white-space: nowrap; 
     border-radius: 100px 100px 100px 100px;
     background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
-    margin: 2em 40% 5em 40%;
-    padding: 2% 0;
-    text-transform: uppercase;
 }
-
-.Zpet:hover{
+.Zpet a:hover{
     background: linear-gradient(90deg, #fca5f1 10%, #9eecec 100%);
     box-shadow: 0px 5px 10px #dddbdf;
 }
