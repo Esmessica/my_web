@@ -62,9 +62,9 @@ header {
     color: white;
     padding: 0.5em 1.2em;
     border-radius: 100px 100px 100px 100px;
-    background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
-    
+    background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);   
 }
+
 .img-size{
     width: 3.2em;
     margin: 0 0 0.5em 0;
