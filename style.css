@@ -18,7 +18,7 @@ html{
 #logo h1{
     font-family: Poppins;
     font-weight: 400;
-    margin: 0.7em 0 0 2em;
+    margin: 0.15em 0 0 1.1em;
     white-space: nowrap;
     color: white;
 
@@ -26,15 +26,10 @@ html{
 
 header {
     font-size: 1.2em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: static;
     display: flex;
-    max-width: 100%;
     background: rgba(255,187,187);
     background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
-    
 }
 
 #kontakt{
@@ -47,6 +42,7 @@ header {
 #email{
     padding: 4em 0 2em 0;
 }
+
 #linkedin{
     padding: 2em 0 8em 0;
 }
@@ -84,26 +80,17 @@ header {
 
 nav ul li {
     list-style-type: none;
-    padding:  0 1em 0 5em;
-    line-height: 4em;
-    text-align: end;
 }
 
 nav ul a {
     color: white;
-    text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+
 }
 
 nav ul li a:hover{
     text-shadow: 0 0 2px #ffffff;
-}
-
-nav ul {
-    margin-left: 5em;
-    display: flex;
-    align-items: center;
 }
 
 .centrovac {
@@ -119,36 +106,24 @@ nav ul {
     color:white;
 }
 
-.dovednosti{
-    margin: 1em 0 2em 0;
-}
 .vypis{
     padding: 0;
-}
-
-.vypis li{
-    list-style-type: none;
 }
 
 body {
     background: #ffffff;
     color: #29262c;
     margin: 0;
-    padding: 7.5em 0px 0 0;
+    padding: 0;
     font: 14px "Poppins";
 }
   
 footer{
     padding: 1rem 0 4rem 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     position: static;
     background: rgb(255,187,187);
     text-align: center;
     color: white;
-    margin: 0;
     background: #b7a5c9;
     clip-path: polygon();
     background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);
@@ -156,7 +131,6 @@ footer{
 
 #footer-text{
     padding: 4em 0 3em 0;
-    max-height: 0.5em;
     white-space: nowrap;
 }
 
@@ -183,4 +157,9 @@ footer{
 a{
     text-decoration: none;
     color: #29262c;
+}
+
+.certifikaty img{
+
+    width: 30%;
 }
