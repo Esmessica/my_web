@@ -155,12 +155,33 @@ footer{
     font-size: 1em;
     padding: 8em 0 0 0;
 }
-.certifikaty img{
 
+.certifikaty img{
     max-width: 50%;
     padding: 0 0.45em;
     background:  linear-gradient(90deg, rgb(255, 214, 214) 50%, rgb(229, 198, 215) 100%);
 }
+
 .certifikaty{
     margin: 4em 0;
+}
+
+.certifikaty-class{
+    margin: 3.5em;
+}
+
+.vypis{
+    color: rgb(62, 62, 62);
+    margin: 3em 35% 0 35%;
+}
+.vypis li{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0.5em 2em;
+    color: rgb(148, 143, 148);
+    background: rgb(255, 255, 255);
+    margin: 0.5em;
+    box-shadow: 0px 0px 15px rgb(241, 235, 241);
+   
 }
