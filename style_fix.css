@@ -25,7 +25,6 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     white-space: nowrap;
-
 }
 
 #logo h1{
@@ -112,28 +111,30 @@ footer{
     color: white;
 }
 
+/*CSS pro kontakt stranku*/
+
 #kontakt{
     color: white;
     font-weight: 400;
     background: rgb(80, 80, 80);
     padding: 1em 0;
 }
-
+/*CSS pro kontakt stranku*/
 #email{
     padding: 4em 0 2em 0;
 }
-
+/*CSS pro kontakt stranku*/
 #linkedin{
     padding: 2em 0 8em 0;
 }
-
+/*CSS pro kontakt stranku*/
 .tlacitko-kontakt-m:hover{
     background: linear-gradient(90deg, #ffc8f8 10%, #b9eeee 100%);
     box-shadow: 0px 5px 10px #dddbdf;
     filter: opacity(0.68);
     color: rgb(80, 80, 80);
 }
-
+/*CSS pro kontakt stranku*/
 .tlacitko-kontakt-m{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -141,14 +142,20 @@ footer{
     border-radius: 100px 100px 100px 100px;
     background: linear-gradient(90deg, rgba(255,187,187,1) 21%, rgba(216,181,255,1) 100%);   
 }
+
 .img-size{
     width: 3.2em;
     margin: 0 0 0.5em 0;
 }
+
+/*CSS pro kontakt stranku*/
+
 .formular{
     margin: 8em 0;
     align-items: center;
 }
+
+/*CSS pro kontakt stranku*/
 
 #text-formular{
     font-weight: 500;
