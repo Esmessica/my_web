@@ -1,12 +1,13 @@
 /*CSS pro kontaktní stránku*/
 #logo_kontakt{
-    width: 100%;
-    display: block;
+    margin-left: 5vw;
     color: white;
 }
 .hl_stranka{
+    margin-left: 5vw;
+    margin-right: 5vw;
     width: 100%;
-    width: 100vw;
+
 }
 
 #kontakt{
@@ -22,6 +23,7 @@
 
 #linkedin{
     padding: 2em 0 8em 0;
+    margin: 5vh 0;
 }
 
 .tlacitko-kontakt-m:hover{
@@ -32,6 +34,7 @@
 }
 
 .tlacitko-kontakt-m{
+    margin: 2em 0;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5em 1.2em;
@@ -41,7 +44,7 @@
 
 .img-size{
     width: 3.2em;
-    margin: 0 0 0.5em 0;
+    margin: 2em 0 1.5em 0;
 }
 
 .formular{
@@ -54,3 +57,4 @@
     font-size: 1em;
     padding: 8em 0 0 0;
 }
+
