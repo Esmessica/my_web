@@ -3,6 +3,7 @@
     margin-left: 5vw;
     color: white;
 }
+
 .hl_stranka{
     margin-left: 5vw;
     margin-right: 5vw;
@@ -71,9 +72,29 @@
     #logo_kontakt h1{
         font-size: 0.75em;
     }
-    #logo_kontakt{
-        margin-left: 0;
 
+    .hl_stranka{
+        margin-right: 0vw;
     }
+
+    #kontakt{
+        background: rgb(80, 80, 80);
+        padding: 1em 0;
+    }
+    
+    .tlacitko-kontakt-m{
+        margin: 4em 0;
+        padding: 1em 1.5em;
+    }
+
+    .img-size{
+        width: 4em;
+        margin: 2em 0 1.5em 0;
+    }
+
+    section img{
+        padding-bottom: 3em;
+    }
+
 
 }
