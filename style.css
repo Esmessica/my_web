@@ -82,6 +82,7 @@ nav ul li a:hover{
     padding: 3vh;
     margin: 3vh 0 5vh 0;
 }
+
 .dovednosti{
     margin: 2em 0;
 }
@@ -149,3 +150,68 @@ footer{
 .certifikaty-class{
     margin: 3.5em;
 }
+
+@media screen and (min-width: 600px) {
+        
+    #logo{
+        padding-top: 8px;
+        font-size: 5em;
+        padding-left: 4vw;
+    }
+
+    #logo h1{
+        font-size: 0.75em;
+    }
+
+    nav ul li a{
+        font-size: 1.7em;
+    }
+    nav ul li{
+        padding: 1.1rem 0 rem 0 0;
+    }
+
+    nav ul{
+        margin-right: 2vw;
+        
+    }
+    #panel{
+        font-size: 1.2em;
+        padding: 10vh 50vh;
+        margin: 3vh 0 5vh 0;
+    }
+    .centrovac h1{
+        padding-top: 2em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    
+    .dovednosti{
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .vypis p{
+    margin: 1em;        
+    }
+
+    .certifikaty-class h2{
+        padding-top: 4em;
+        text-align: center;
+    }
+
+    .certifikaty{
+        margin: 3em 0 4em;
+        
+    }
+    
+    .certifikaty img{
+        max-width: 60vw;
+        padding: 0 0.75em;
+        margin: 2vw 0;
+    }
+    
+    .certifikaty-class{
+        margin: 0 0 5em 0;
+    }
+
+  }

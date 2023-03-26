@@ -58,3 +58,22 @@
     padding: 8em 0 0 0;
 }
 
+@media screen and (min-width: 600px) {
+
+    /*css pro kontakt.html*/
+
+    #logo_kontakt{
+        padding-top: 8px;
+        font-size: 5em;
+        padding-left: 4vw;
+    }
+
+    #logo_kontakt h1{
+        font-size: 0.75em;
+    }
+    #logo_kontakt{
+        margin-left: 0;
+
+    }
+
+}
